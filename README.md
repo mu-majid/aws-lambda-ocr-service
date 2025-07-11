@@ -60,14 +60,14 @@ project/
 
 Best Practices by Use Case:
 
-Simple sync communication: Direct invoke (RequestResponse)
-Async processing: SQS or SNS
-Event-driven architecture: EventBridge
-High-throughput streaming: Kinesis
-Complex workflows: Step Functions
-File processing: S3 Events
-Web APIs: API Gateway
-Database triggers: DynamoDB Streams
+- Simple sync communication: Direct invoke (RequestResponse)
+- Async processing: SQS or SNS
+- Event-driven architecture: EventBridge
+- High-throughput streaming: Kinesis
+- Complex workflows: Step Functions
+- File processing: S3 Events
+- Web APIs: API Gateway
+- Database triggers: DynamoDB Streams
 
 I have used direct Invoke for simplicity.
 
